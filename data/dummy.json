@@ -1,0 +1,58 @@
+[
+    {
+        "country": "Germany",
+        "playerCount": 128,
+        "averageNetDifference": 9561445.09,
+        "averagePercentageDifference": 410277515,
+        "clubs": [
+            {
+                "club": "Eintracht Frankfurt",
+                "playerCount": 1,
+                "players": [
+                    {
+                        "name": "Ante Rebic",
+                        "playerCount": 1,
+                        "averageNetDifference": 26190000.00,
+                        "averagePercentageDifference": 3233
+                    }
+                ]
+            },
+            {
+                "club": "RB Leipzig",
+                "playerCount": 5,
+                "players": [
+                    {
+                        "name": "Timo Werner",
+                        "playerCount": 1,
+                        "averageNetDifference": 64800000.00,
+                        "averagePercentageDifference": 900
+                    },
+                    {
+                        "name": "Naby Keita",
+                        "playerCount": 1,
+                        "averageNetDifference": 42300000.00,
+                        "averagePercentageDifference": 261
+                    },
+                    {
+                        "name": "Emil Forsberg",
+                        "playerCount": 1,
+                        "averageNetDifference": 18450000.00,
+                        "averagePercentageDifference": 1025
+                    },
+                    {
+                        "name": "Joshua Kimmich",
+                        "playerCount": 1,
+                        "averageNetDifference": 7199999.00,
+                        "averagePercentageDifference": 719999900
+                    },
+                    {
+                        "name": "Ante Rebic",
+                        "playerCount": 1,
+                        "averageNetDifference": 1800000.00,
+                        "averagePercentageDifference": -57
+                    }
+                ]
+            }
+        ]
+    }
+]
