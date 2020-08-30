@@ -4,4 +4,4 @@ function processData(rawData) {
   return data;
 }
 
-module.exports(processData);
+module.exports = { processData };
