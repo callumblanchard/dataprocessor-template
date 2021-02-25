@@ -33,7 +33,7 @@ By default, a CSV will be processed into an array of objects. Each object repres
 Sheets can be included/excluded in order to select only the data that is relevant to the desired output. `includeSheets` and `excludeSheets` cannot be used together. If `includeSheets` is used, **only** sheets that are specified will be pulled into the data processor.
 
 ### Single Sheet
-If only a single sheet is included, data will be written to an array of objects with each object representing one line of data
+If only a single sheet is included, data will be written to an array of objects with each object representing one line of data.
 ```
 [
   {
@@ -52,7 +52,7 @@ If only a single sheet is included, data will be written to an array of objects 
 ```
 
 ### Multi Sheet
-Excel Spreadsheets with more than one tab included are processed as an object with keys corresponding to the tab names, each value being an array of objects representing data within that sheet
+Excel Spreadsheets with more than one tab included are processed as an object with keys corresponding to the tab names, each value being an array of objects representing data within that sheet.
 
 ```
 {
@@ -90,5 +90,5 @@ Excel Spreadsheets with more than one tab included are processed as an object wi
 npm i
 
 # Fetch Data and process into JSON
-npm run dataProcessor
+npm run processData
 ```
