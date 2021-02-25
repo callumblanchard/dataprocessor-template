@@ -2,17 +2,19 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 const { processData } = require('./dataProcessor');
 
-const includeSheets = [];
-// const excludeSheets = [];
+// Can specify a list of sheets to include/exclude in the data
+
+const excludeSheets = [];
+// const includeSheets = [];
 
 function main() {
   const results = {};
-
-  const wb = xlsx.readFile('data/data.xlsx', { type: 'buffer' });
+  // Change `data/sample.xlsx` to the path to your data spreadsheet
+  const wb = xlsx.readFile('data/sample.xlsx', { type: 'buffer' });
 
   wb.SheetNames.forEach((name) => {
-    if (includeSheets.indexOf(name) === -1) return;
-    // if (excludeSheets.indexOf(name) !== -1) return;
+    if (excludeSheets.indexOf(name) !== -1) return;
+    // if (includeSheets.indexOf(name) === -1) return;
 
     const ws = wb.Sheets[name];
     results[name] = xlsx.utils.sheet_to_json(ws);

@@ -1,11 +1,14 @@
 {
   "name": "dataprocessor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Templating for a data processor that converts spreadsheet data into structured JSON",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callumblanchard/dataprocessor-template.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dataProcessor": "node -r dotenv/config scripts/fetchData/fetchXlsx.js"
+    "processData": "node -r dotenv/config scripts/fetchData/fetchCSV.js"
   },
   "author": "Callum Blanchard",
   "license": "MIT",
